@@ -1,0 +1,14 @@
+.App-about {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+.App-about-image {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-about-text {
+  width: 60vmin;
+}

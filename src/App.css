@@ -1,12 +1,17 @@
 .App {
   text-align: center;
-  background-color:aqua;
+ /* background-color:aqua; */
 }
 
 .App-image {
   height: 40vmin;
   pointer-events: none;
 }
+
+a:link { color: lightgray; text-decoration: none }
+a:visited { color: lightsteelblue; }
+a:hover { color: white; text-decoration: underline }
+a:active { color: gray; }
 
 /* @media (prefers-reduced-motion: no-preference) {
   .App-image {
@@ -30,37 +35,16 @@
   color: white;
 }
 
-.App-about {
-  display: flex;
-  flex-direction: row;
-}
-
-.App-projects {
-  background-color:blueviolet;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.App-project {
-  background-color:yellow; 
-  pointer-events: none;
-}
-
-.App-project-image {
-  height: 30vmin;
-  width: 45vmin;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  pointer-events: none;
+.App-navigation {
+  font-size: 2vmin;
 }
 
 
+/* 
 .App-link {
   color: #61dafb;
-}
+} 
+*/
 
 @keyframes App-image-spin {
   from {

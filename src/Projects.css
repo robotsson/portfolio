@@ -1,0 +1,29 @@
+.App-projects {
+    /*  background-color:blueviolet; */
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+.App-project {
+    /* background-color:yellow; */
+    font-size: 2vmin;
+    pointer-events: none;
+    margin-bottom: 30px;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: dotted;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.App-project-image {
+    height: 30vmin;
+    width: 45vmin;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+}
