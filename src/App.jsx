@@ -1,6 +1,6 @@
-import About from './About.jsx';
-import Skills from './Skills.jsx';
-import Projects from './Projects.jsx';
+import About from './components/About.jsx';
+import Skills from './components/Skills.jsx';
+import Projects from './components/Projects.jsx';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -8,7 +8,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
 
 
 function App() {

@@ -1,4 +1,4 @@
-import profileimg from './images/doesnotexistguy.jpg';
+import profileimg from '../images/doesnotexistguy.jpg';
 import { Link } from "react-router-dom";
 import './About.css';
 
