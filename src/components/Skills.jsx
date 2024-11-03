@@ -14,7 +14,7 @@ function Skills() {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
             magnam exercitationem dicta? Mollitia ratione nisi, laborum consequuntur
             labore quis fugit.<p></p>
-            JavaScript, React, HTML, CSS.
+            C#, JavaScript, React, HTML, CSS.
             </div>
           <p></p>
         </div>

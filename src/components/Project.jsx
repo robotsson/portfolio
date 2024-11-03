@@ -8,19 +8,22 @@ function Project( props ) {
             <div className="App-project">
               {props.descr}
               <p></p>
-              <a href={props.url1}>
-                <img src={props.image} className="App-project-image" alt="logo" />
+              <a href={props.url1}                   
+                 className="App-link"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                <img src={props.image} className="App-project-image" alt="a project" />
                 <br />
                 demo
-                </a>
-                &ensp;
-                <a href={props.url2}
-                   className="App-link"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                  github
-                  <p></p>
-                </a>
+              </a>
+              &ensp;
+              <a href={props.url2}
+                 className="App-link"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                github
+                <p></p>
+              </a>
             </div>
         );
     }
@@ -30,7 +33,9 @@ function Project( props ) {
             <div className="App-project">
               {props.descr}
               <p></p>
-              <a href={props.url2} target="_blank">
+              <a href={props.url2} 
+                 target="_blank"
+                 rel="noopener noreferrer">
                 <img src={props.image} className="App-project-image" alt="logo" />
                 <br />
                 github

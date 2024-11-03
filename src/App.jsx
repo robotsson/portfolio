@@ -2,12 +2,7 @@ import About from './components/About.jsx';
 import Skills from './components/Skills.jsx';
 import Projects from './components/Projects.jsx';
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 
 
 function App() {
@@ -16,9 +11,9 @@ function App() {
     <Router>
       <header className="App-header">
           <nav className="App-navigation">
-            <Link className="App-link" to="/about">About</Link>&nbsp;
-            <Link className="App-link" to="/skills">Skills</Link>&nbsp;
-            <Link className="App-link" to="/projects">Projects</Link>&nbsp;
+            <NavLink className="App-link" to="/about">About</NavLink>&nbsp;
+            <NavLink className="App-link" to="/skills">Skills</NavLink>&nbsp;
+            <NavLink className="App-link" to="/projects">Projects</NavLink>&nbsp;
           </nav>
         <div className="App-title"><h1>Anders Johansson</h1></div>
 
@@ -34,6 +29,7 @@ function App() {
       </header>
     </Router>
     </div>
+
   );
 }
 

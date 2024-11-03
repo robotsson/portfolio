@@ -9,7 +9,6 @@ import project4 from '../images/project4.png';
 function Projects() {
     return (
       <header>
-        <a href="https://robotsson.github.io/">robooo</a>
         <div className="App-skills-title">
           <h2>Projects</h2>
         </div>
