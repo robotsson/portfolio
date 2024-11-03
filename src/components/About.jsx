@@ -6,10 +6,14 @@ import { motion } from 'framer-motion';
 function About() {
   return (
     <header>
+      <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}> 
       <h2>About me</h2>
       <div className="App-about">
         <div className="App-about-text">
-   
+
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
           magnam exercitationem dicta? Mollitia ratione nisi, laborum consequuntur. 
           For more see&nbsp;
@@ -25,7 +29,7 @@ function About() {
             rel="noopener noreferrer">
             Curriculum Vitae
           </a>
-
+          
         </div>
         <img src={profileimg} className="App-about-image" alt="a portrait of me" />
       </div>
@@ -33,6 +37,7 @@ function About() {
       <Link to="mailto:robotsson@email.com">Email: robotsson@email.com</Link>
       <br/>
       <Link to="tel:+46729764563">Phone: +46729764563</Link>
+      </motion.div> 
     </header>
   );
 }

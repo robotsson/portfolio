@@ -4,11 +4,15 @@ import project1 from '../images/project1.png';
 import project2 from '../images/project2.png';
 import project3 from '../images/project3.png';
 import project4 from '../images/project4.png';
-
+import { motion } from 'framer-motion';
 
 function Projects() {
     return (
       <header>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}> 
         <div className="App-skills-title">
           <h2>Projects</h2>
         </div>
@@ -43,6 +47,7 @@ function Projects() {
           />
 
         </div>
+        </motion.div>
       </header>
     );
   }

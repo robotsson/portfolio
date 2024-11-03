@@ -6,6 +6,9 @@
 .App-about-image {
     height: 40vmin;
     pointer-events: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: none;
 }
 
 .App-about-text {

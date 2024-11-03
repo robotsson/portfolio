@@ -1,8 +1,13 @@
 import './Skills.css';
+import { motion } from 'framer-motion';
 
 function Skills() {
     return (
       <header>
+      <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}> 
         <div className="App-skills">
           <div className="App-skills-title">
             <h2>Skills</h2></div>
@@ -18,6 +23,7 @@ function Skills() {
             </div>
           <p></p>
         </div>
+        </motion.div>
       </header>
     );
   
