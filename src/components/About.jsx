@@ -17,12 +17,12 @@ function About() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
           magnam exercitationem dicta? Mollitia ratione nisi, laborum consequuntur. 
           For more see&nbsp;
-          <Link className="App-link" to="/skills">skills</Link> 
+          <Link className="App-link" to="/portfolio/skills">skills</Link> 
           <p></p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dicta? Laborum consequuntur
           labore.<br/> 
           Have a look at my&nbsp;
-          <Link className="App-link" to="/projects">projects</Link>  <p></p>
+          <Link className="App-link" to="/portfolio/projects">projects</Link>  <p></p>
 
           <a href="https://robotsson.github.io/cv"
             className="App-link" 

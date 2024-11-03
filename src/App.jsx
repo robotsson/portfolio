@@ -11,20 +11,18 @@ function App() {
     <Router>
       <header className="App-header">
           <nav className="App-navigation">
-            <NavLink className="App-link" to="/about">About</NavLink>&nbsp;
-            <NavLink className="App-link" to="/skills">Skills</NavLink>&nbsp;
-            <NavLink className="App-link" to="/projects">Projects</NavLink>&nbsp;
+            <NavLink className="App-link" to="/portfolio/about">About</NavLink>&nbsp;
+            <NavLink className="App-link" to="/portfolio/skills">Skills</NavLink>&nbsp;
+            <NavLink className="App-link" to="/portfolio/projects">Projects</NavLink>&nbsp;
           </nav>
         <div className="App-title"><h1>Anders Johansson</h1></div>
 
         <Routes>
-          <Route path="/portfolio/index.html" element={<About/>} />
           <Route path="/portfolio" element={<About/>} />
-          <Route path="/about" element={<About/>} />
-
-          <Route path="/skills" element={<Skills/>} />
-
-          <Route path="/projects" element={<Projects/>} />
+          <Route path="/portfolio/index.html" element={<About/>} />
+          <Route path="/portfolio/about" element={<About/>} />
+          <Route path="/portfolio/skills" element={<Skills/>} />
+          <Route path="/portfolio/projects" element={<Projects/>} />
         </Routes>
       </header>
     </Router>
