@@ -1,10 +1,13 @@
 # Portfolio
 
-Portfolio Website
+Portfolio Website<br/>
+[Demo](https://robotsson.github.io/portfolio)
 
 ## Project description
 
-Developed with [React](https://react.dev/), [React Router](https://reactrouter.com/en/main) and [Framer Motion](https://www.framer.com/motion/).
+Developed in [React](https://react.dev/).<br/>
+[React Router](https://reactrouter.com/en/main) is used for the navigation menu routing. <br/>
+[Framer Motion](https://www.framer.com/motion/) is used for page transition animation<br/>
 
 ### TODO
 
