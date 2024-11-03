@@ -20,7 +20,8 @@ function About() {
           <Link className="App-link" to="/skills">skills</Link> 
           <p></p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dicta? Laborum consequuntur
-          labore. Have a look at my&nbsp;
+          labore.<br/> 
+          Have a look at my&nbsp;
           <Link className="App-link" to="/projects">projects</Link>  <p></p>
 
           <a href="https://robotsson.github.io/cv"

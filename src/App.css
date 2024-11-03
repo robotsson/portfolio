@@ -36,7 +36,7 @@ a:active { color: gray; }
 }
 
 .App-navigation {
-  font-size: 2vmin;
+  font-size: calc(2px + 2vmin);
 }
 
 
