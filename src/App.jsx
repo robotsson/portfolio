@@ -18,6 +18,7 @@ function App() {
         <div className="App-title"><h1>Anders Johansson</h1></div>
 
         <Routes>
+          <Route path="*" element={<About/>} />
           <Route path="/portfolio" element={<About/>} />
           <Route path="/portfolio/index.html" element={<About/>} />
           <Route path="/portfolio/about" element={<About/>} />

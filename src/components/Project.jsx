@@ -1,4 +1,5 @@
 import './Project.css';
+import { motion } from "framer-motion";
 
 function Project( props ) {
 
@@ -12,7 +13,9 @@ function Project( props ) {
                  className="App-link"
                  target="_blank"
                  rel="noopener noreferrer">
-                <img src={props.image} className="App-project-image" alt="a project" />
+                <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>    
+                  <img src={props.image} className="App-project-image" alt="a project" />
+                </motion.div>
                 <br />
                 demo
               </a>
@@ -36,7 +39,9 @@ function Project( props ) {
               <a href={props.url2} 
                  target="_blank"
                  rel="noopener noreferrer">
-                <img src={props.image} className="App-project-image" alt="logo" />
+                <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>      
+                  <img src={props.image} className="App-project-image" alt="logo" />
+                </motion.div>
                 <br />
                 github
               </a>
