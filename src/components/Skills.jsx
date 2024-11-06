@@ -1,5 +1,7 @@
 import './Skills.css';
 import { motion } from 'framer-motion';
+import csimg from '../images/csharp.png';
+import jsimg from '../images/js.png';
 
 function Skills() {
     return (
@@ -20,7 +22,10 @@ function Skills() {
             magnam exercitationem dicta? Mollitia ratione nisi, laborum consequuntur
             labore quis fugit.<p></p>
             C#, JavaScript, React, HTML, CSS.
-            </div>
+            </div><p></p>
+            <img src={csimg} className="skills-logo" alt="c# logo"/>
+            &nbsp;
+            <img src={jsimg} className="skills-logo" alt="javascript logo"/>
           <p></p>
         </div>
         </motion.div>
